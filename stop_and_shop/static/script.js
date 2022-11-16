@@ -337,13 +337,13 @@ window.addEventListener("load", (async function() {
 
     render_produce_list()
 
-    let video_stream = await open_webcam()
-    e_video.srcObject = video_stream
+    // let video_stream = await open_webcam()
+    // e_video.srcObject = video_stream
 
     // Remove the notice asking for camera permissions
     // e_notice.parentElement.removeChild(e_notice)
 
-    let classify_timer = window.setInterval(() => {
-        classify_webcam()
-    }, UPLOAD_INTERVAL);
+    // let classify_timer = window.setInterval(() => {
+    //    classify_webcam()
+    // }, UPLOAD_INTERVAL);
 }));
