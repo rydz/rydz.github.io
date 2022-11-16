@@ -232,6 +232,7 @@ window.addEventListener("load", (async function() {
                 " purple",
                 " red",
                 " gold",
+		" orange",
             ]) {
                 if(v.toLowerCase().includes(color)) {
                     el.style.color = color;
