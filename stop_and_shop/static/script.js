@@ -236,7 +236,7 @@ window.addEventListener("load", (async function() {
             ]) {
                 if(v.toLowerCase()
                     .replace("granny", " green")
-                    .replace("cucumber", " green")
+                    .replace("cucumbers", " green")
                     .includes(color)) {
                     el.style.color = color;
                 }
