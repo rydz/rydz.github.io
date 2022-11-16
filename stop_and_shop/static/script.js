@@ -234,7 +234,7 @@ window.addEventListener("load", (async function() {
                 " gold",
 		" orange",
             ]) {
-                if(v.toLowerCase().includes(color)) {
+                if(v.toLowerCase().replace("granny", "green").includes(color)) {
                     el.style.color = color;
                 }
             }
