@@ -308,7 +308,7 @@ window.addEventListener("load", (async function() {
 
     async function render_produce_list() {
         /**@type {object} */
-        PRODUCE_DB = await (await fetch("/static/produce_list.json")).json()
+        PRODUCE_DB = await (await fetch("static/produce_list.json")).json()
 
         e_produce_list_body.innerHTML = ""
         function gen_letter(x) {
