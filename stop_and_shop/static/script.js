@@ -232,9 +232,12 @@ window.addEventListener("load", (async function() {
                 " purple",
                 " red",
                 " gold",
-		" orange",
+	        	" orange",
             ]) {
-                if(v.toLowerCase().replace("granny", "green").includes(color)) {
+                if(v.toLowerCase()
+                    .replace("granny", " green")
+                    .replace("cucumber", " green")
+                    .includes(color)) {
                     el.style.color = color;
                 }
             }
