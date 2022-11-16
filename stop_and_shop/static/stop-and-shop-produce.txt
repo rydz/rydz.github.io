@@ -1,0 +1,116 @@
+# Produce
+4106	apple, cortland
+4130	apple, envy
+4126	apple, fuji
+4135	apple, gala
+4020	apple, golden
+4017	apple, granny
+3283	apple, honeycrisp
+4019	apple, macintosh
+4016	apple, red
+4218	apricots
+4516	artichokes
+4080	asparagus
+4225	avocado
+4011	bananas
+4066	beans, green
+4060	broccoli - bunch
+4549	broccoli - crown
+4547	broccolli raab
+4550	brussel sprts
+89825	bulk carrots
+4069	cabbage
+4554	cabbage, red
+4555	cabbage, savoy
+4050	cantaloupes
+4079	cauliflower
+4257	cherimoya
+4045	cherries
+4927	chestnuts
+4889	cilantro
+4450	clementines
+4261	cocounuts
+4078	corn
+4062	cucumbers
+4596	cucumbers, english
+4081	eggplant
+4543	endive
+4608	garlic
+4612	ginger root
+3135	gourds
+4281	grapefruit, red
+4034	honedew melon
+4625	horseradish root
+4627	kale
+4030	kiwi
+4303	kumquat
+4629	leeks
+4053	lemons
+4632	lettuce, boston
+4048	limes
+4549	mangoes
+4085	mushrooms
+4650	mushrooms, port
+4378	nectarines
+4082	onions, red
+4663	onions, white
+4665	onions, yellow
+4012	oranges
+4822 	parsley
+4044	peaches
+4416	pears, anjou
+4408	pears, asian
+4409	pears, bartlett
+4413	pears, bosc
+4687	peppers, cubanelle
+4065	peppers, green
+4088	peppers, red bell
+4696	peppers, hot
+4686	peppers, mix chile
+4235	plantains
+3609	pluot
+4040	plums
+4127	pomegranate
+4072	potato, idaho
+4073 	potato, red
+4083	potato, white
+4727	potato, yellow
+3129	pumello
+4736	pumpkin, large
+4734	pumpkin, mini
+4089	radish
+4745	rhubarb
+94068	scallions
+4662	shallots
+4750	squash, acorn
+4768	squash, buttercup
+4759	squash, butternut
+4067	squash, green	zucini
+4776	squash, spaghetti
+4782	squash, yellow
+4801	tomatillo
+4796	tomato, cherry
+3151	tomatoes large
+4664	tomato, vine
+4087	tomato, plum
+4812	turnip
+3421	watermelon, baby
+4032	watermelon, whole
+4816	yams/sweet potato
+4819	yuca
+99	ice 10lb bag
+98	ice 20 lb bag
+
+
+# Bakery entries
+402	muffins each
+426	rolls each
+620	donuts each
+625	danish/pastry
+437	condiment cup
+714	coffee refill
+700 	coffee med
+699	coffee sm
+627	cup coffee
+424	bagel/cream cheese
+1655	bagels each

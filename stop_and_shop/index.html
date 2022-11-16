@@ -1,0 +1,79 @@
+<html>
+    <title>Produce classifer</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js"></script>
+    <style>
+        body {
+            width: 100%;
+        }
+        table {
+            font-size: x-large;
+        }
+
+        #sticky {
+            display: flexbox;
+            justify-content: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        #sticky > * {
+            width: 100%;
+        }
+    </style>
+    <body class="markdown-body" style="max-width: 1000px; margin: auto; text-align: center;">
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <div id="notice">
+            <h1>Stop and shop produce classifier</h1>
+            <p> Please allow this application access to your phone's rear facing camera</p>
+            <p> 
+                Classified produce will be automatically displayed below<br>
+                If this page stops working, try refreshing
+            </p>
+        </div>
+        <div id="video-container">
+            <video id="video" style="height: 150px" autoplay></video>
+            <h2>Labels</h2>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <table>
+                    <thead>
+                        <td>Code</td>
+                        <td>Tag</td>
+                    </thead>
+                    <tbody id="labels">
+                        <tr>
+                            <td>Sample data</td>
+                            <td>This will be replaced when an inference is made</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Script errors and logs will be output here -->
+        <pre id="log">
+        </pre>
+
+        <!-- <h2>Preview</h2>
+        <p>A preview of what the server is currently parsing will be displayed below</p>
+        <img id="preview"> -->
+
+
+        <h2>Produce list</h2>
+        <table id="produce-list" style="margin: auto">
+            <thead>
+                <tr>
+                    <td>Key</td>
+                    <td>Value</td>
+                </tr>
+            </thead>
+            <tbody id="produce-list-body">
+            </tbody>
+        </table>
+    </body>
+    <div id="sticky">
+        <input type="text" id="produce-search">
+    </div>
+</html>
