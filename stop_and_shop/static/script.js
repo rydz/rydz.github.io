@@ -240,6 +240,7 @@ window.addEventListener("load", (async function() {
                     .replace("cucumbers", " green")
                     .replace("plums", " purple")
                     .replace("tomatoes large", " red")
+		    .replace("pineapple", " yellow")
                     .includes(color)) {
                     el.style.color = color;
                 }
